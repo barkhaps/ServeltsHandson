@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.*;
-import com.highradius.dataLoading.DataSource;
 
 public class getCustName extends HttpServlet {
 	

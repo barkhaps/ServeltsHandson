@@ -44,4 +44,12 @@
 		<servlet-name>Square</servlet-name>
 		<url-pattern>/sq</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>CustName</servlet-name>
+		<servlet-class>com.highradius.SampleServlets.getCustName</servlet-class>
+	</servlet>
+  <servlet-mapping>
+		<servlet-name>CustName</servlet-name>
+		<url-pattern>/custName</url-pattern>
+	</servlet-mapping>
 </web-app>
